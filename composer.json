@@ -1,0 +1,28 @@
+{
+  "name": "adamwojs/ezplatform-bundle-skeleton",
+  "license": "GPL-2.0-only",
+  "description": "A skeleton to start a new eZ Platform Bundle project",
+  "keywords": [
+    "ezplatform", "ezplatform-bundle", "skeleton"
+  ],
+  "type": "project",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "^7.3"
+  },
+  "require-dev": {
+    "adamwojs/ezplatform-bundle-generator": "dev-master"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  },
+  "scripts": {
+    "post-create-project-cmd": [
+      "AdamWojs\\EzPlatformBundleGenerator\\Composer\\ScriptHandler::generate",
+      "@composer update"
+    ]
+  }
+}
