@@ -7,7 +7,7 @@ A skeleton to start a new eZ Platform Bundle project.
 Open a command console and execute:
 
 ```bash
-$ compser create-project adamwojs/ezplatform-bundle-skeleton <bundle-name> 
+$ composer create-project adamwojs/ezplatform-bundle-skeleton <bundle-name> 
 ```
 
 This command requires you to have Composer installed globally, as explained
