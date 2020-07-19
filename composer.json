@@ -22,7 +22,8 @@
   "scripts": {
     "post-create-project-cmd": [
       "AdamWojs\\EzPlatformBundleGenerator\\Composer\\ScriptHandler::generate",
-      "@composer update"
+      "@composer update",
+      "@composer fix-cs"
     ]
   }
 }
